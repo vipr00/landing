@@ -37,7 +37,7 @@
 
     /* main section */
     #main {
-        height: 500px;
+        /* height: 500px; */
         background-image: url(images/banner.png);
         background-size: cover;
     }
@@ -51,6 +51,55 @@
         background-repeat: no-repeat;
         height: 400px;
         background-size: 100% 100%;
+    }
+
+
+    .timer-container {
+        padding-top: 50px;
+    }
+
+    .sales_block {
+        text-align: center;
+        
+    
+    }
+
+    .green_text {
+        color:rgb(77,153,3);
+    }
+
+    .salesText span {
+       line-height: 40px;
+       text-align: center;
+       align-items: center; 
+       font-family: "lato";
+       
+    }
+
+    .salesText_1 span{
+      font-size: 21px;
+      font-weight: 800;
+    }
+
+    .salesText_2 {
+      font-size: 21px;
+      font-weight: 800;
+    }
+
+    .salesText_3 {
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .salesText_4 {
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .salesText_5 {
+      font-size: 24px;
+      font-weight: 600;
+      font-style: italic;
     }
     .wave {
         display: block;
