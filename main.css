@@ -1,0 +1,202 @@
+  /* header */
+    #header {
+        margin-bottom: 0;
+    }
+
+    #header .nav.menu {
+        padding-top: 50px;
+    }
+
+    #header .nav li a {
+        color: #000000;
+        font-weight: bold;
+    }
+    #header .nav>li>a:focus,
+    #header .nav>li>a:hover {
+        background-color: transparent;
+        color: #056527;
+    }
+
+    #header .btn.order-call {
+        width: 100%;
+        background-color: #056527;
+        color: #fff;
+    }
+
+    #header .navbar-brand {
+        height: 100%;
+    }
+
+    #header .navbar-brand img {
+        height: 100%;
+    }
+
+    #header .navbar-toggle .icon-bar {
+        background-color: #056527;
+    }
+
+    /* main section */
+    #main {
+        height: 500px;
+        background-image: url(images/banner.png);
+        background-size: cover;
+    }
+
+    #main .title {
+        font-size: 4.5rem;
+        padding: 25px 0px;
+    }
+    #main .timer-container {
+        background-image: url(images/novyy-god-yolka-girlyandy-raznocvetnye.png);
+        background-repeat: no-repeat;
+        height: 400px;
+        background-size: 100% 100%;
+    }
+    .wave {
+        display: block;
+        height: 50px;
+        width: 100%;
+        background-image: url(images/volna.png);
+        background-size: 100% 100%;
+        margin-top: -8px;
+        margin-bottom: 0;
+        border-top: 0;
+    }
+
+    #better .item {
+        padding: 0 15px;
+    }
+    #better .item p {
+        margin-top: 15px;
+        font-weight: 600;
+    }
+    /* TODO LEFT AND RIGHT CHRISTMAS TREE*/
+    /*#better:before {*/
+        /*content: '';*/
+        /*position: absolute;*/
+        /*width: 100%;*/
+        /*max-width: 25%;*/
+        /*display: block;*/
+        /*height: 100%;*/
+        /*background-image: url(images/better/left.png);*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: contain;*/
+        /*left: 0;*/
+    /*}*/
+    /*#better:after {*/
+        /*content: '';*/
+        /*position: absolute;*/
+        /*width: 100%;*/
+        /*right: 0;*/
+        /*max-width: 25%;*/
+        /*display: block;*/
+        /*height: 100%;*/
+        /*background-image: url(images/better/right.png);*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: contain;*/
+    /*}
+
+    #catalog h1.title {
+        color: #dcb86c;
+        font-weight: 900;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    #catalog .tree-first {
+        background-color: #056527;
+        color: #fff;
+        margin: 15px 0;
+    }
+    #catalog .tree-first .title-container {
+        padding: 20px 0;
+        border-bottom: 1px solid white;
+    }
+
+    #catalog .tree-first .title-container p {
+        font-weight: 600;
+    }
+
+    #catalog .tree-first .selections {
+        padding: 15px 0;
+        font-weight: 600;
+    }
+
+    #catalog .tree-first .selections s {
+        color: #c9c7c7;
+    }
+    #catalog .tree-first .selections .price {
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+    #catalog .tree-first .btn.btn-orange {
+        background: #ff6a1c;
+        margin: 15px 0;
+        width: 50%;
+    }
+    #catalog .tree-first .btn.btn-orange:hover {
+        color: #fff;
+    }
+    */
+
+    /* more section */
+
+    .more {
+        padding: 20px 0;
+        background-image: url(images/more_banner.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #fff;
+    }
+    .more input {
+        background: transparent;
+    }
+
+    /* order */
+    #order img {
+        max-height: 50px;
+    }
+
+    #order span.glyphicon {
+        font-size: 16px;
+        float: right;
+    }
+
+    /* paid */
+    #paid {
+        padding: 20px 0;
+        background-image: url(images/paid/logo_big.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #paid p {
+        margin: 15px 0;
+    }
+
+    /* footer */
+    /*#footer {*/
+        /*padding: 20px 0;*/
+        /*background-image: url(images/santa.png);*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: contain;*/
+    /*}*/
+
+    /* global */
+    .btn-green {
+        background-color: #056527;
+        color: #fff;
+    }
+    .btn-green:hover {
+        color: #fff;
+    }
+    h1.title-yellow {
+        color: #dcb86c;
+        font-weight: 900;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .wave.latest {
+        margin: 20px 0;
+    }

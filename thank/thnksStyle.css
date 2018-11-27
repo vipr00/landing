@@ -1,0 +1,20 @@
+    body {
+        margin: 0;
+    }
+    
+    
+    #main {
+        height: 100vh;
+        background-image: url(thank_banner.jpg);
+        background-size: cover;
+    }
+
+    @media (max-width:700px){
+   #main {
+        height: 100vh;
+        background-image: url(thank_banner.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+    }
+    }
