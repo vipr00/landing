@@ -1,3 +1,7 @@
+body {
+  font-family: Lato;
+}
+
 /* header */
 #header {
   margin-bottom: 0;
@@ -35,89 +39,109 @@
   background-color: #056527;
 }
 
-    /* main section */
-    #main {
-        /* height: 500px; */
-        background-image: url(images/banner.png);
-        background-size: cover;
-    }
+/* main section */
+#main {
+  /* height: 500px; */
+  background-image: url(images/banner.png);
+	background-size: cover;
+	margin-bottom: 30px;
+}
 
-    #main .title {
-        font-size: 4.5rem;
-        padding: 25px 0px;
-    }
-    #main .timer-container {
-        background-image: url(images/novyy-god-yolka-girlyandy-raznocvetnye.png);
-        background-repeat: no-repeat;
-        height: 400px;
-        background-size: 100% 100%;
-    }
+#main .title {
+  font-size: 4.5rem;
+  padding: 25px 0px;
+}
+#main .timer-container {
+  background-image: url(images/novyy-god-yolka-girlyandy-raznocvetnye.png);
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: 100% 100%;
+}
 
+.timer-container {
+  padding-top: 50px;
+}
 
-    .timer-container {
-        padding-top: 50px;
-    }
+.sales_block {
+  text-align: center;
+}
 
-    .sales_block {
-        text-align: center;
-        
-    
-    }
+.green_text {
+  color: rgb(77, 153, 3);
+  text-transform: uppercase;
+}
 
-    .green_text {
-        color:rgb(77,153,3);
-    }
+.salesText span {
+  line-height: 40px;
+  text-align: center;
+  align-items: center;
+  font-family: "lato";
+}
 
-    .salesText span {
-       line-height: 40px;
-       text-align: center;
-       align-items: center; 
-       font-family: "lato";
-       
-    }
+.salesText_1 span {
+  font-size: 21px;
+  font-weight: 800;
+}
 
-    .salesText_1 span{
-      font-size: 21px;
-      font-weight: 800;
-    }
+.salesText_2 {
+  font-size: 21px;
+  font-weight: 800;
+}
 
-    .salesText_2 {
-      font-size: 21px;
-      font-weight: 800;
-    }
+.salesText_3 {
+  font-size: 13px;
+  font-weight: 400;
+}
 
-    .salesText_3 {
-      font-size: 18px;
-      font-weight: 400;
-    }
+.salesText_4 {
+  font-size: 18px;
+  font-weight: 800;
+}
 
-    .salesText_4 {
-      font-size: 18px;
-      font-weight: 800;
-    }
-
-    .salesText_5 {
-      font-size: 24px;
-      font-weight: 600;
-      font-style: italic;
-    }
-    .wave {
-        display: block;
-        height: 70px;
-        width: 100%;
-        background-image: url(images/volna.png);
-        background-size: 100% 100%;
-        margin-top: -8px;
-        margin-bottom: 0;
-        border-top: 0;
-    }
+.salesText_5 {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+}
 
 #better {
-    padding: 30px 0;
+  padding: 50px 0;
+  position: relative;
+}
+
+.better-wave {
+	position: absolute;
+	top: -60px;
+  height: 70px;
+  width: 100%;
+  background-image: url(images/volna.png);
+  background-size: 100% 100%;
+  border-top: 0;
 }
 
 .better-item-group {
-    padding: 0 100px;
+  padding: 0 150px;
+}
+
+@media (max-width: 1199.98px) {
+  .better-bg {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .better-bg {
+    position: absolute;
+    top: 0;
+    z-index: -1000;
+    height: 100%;
+  }
+  .better-bg.left {
+    left: 0;
+  }
+  .better-bg.right {
+    right: 0;
+  }
 }
 
 #better .item {
@@ -208,14 +232,53 @@
   background: transparent;
 }
 
+.more-title {
+  padding-right: 50px;
+  text-align: center;
+}
+
+.more-form-title {
+	font-size: 20px;
+	padding: 30px 0;
+}
+
 /* order */
 #order img {
-  max-height: 50px;
+  max-height: 100px;
 }
+
 
 #order span.glyphicon {
   font-size: 16px;
   float: right;
+}
+
+.order-image {
+	height: 60px;
+}
+
+.order-item {
+	padding-top: 30px;
+	position: relative;
+}
+.order-item--header {
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.order-item--text {
+	padding-top: 20px;
+	font-size: 14px;
+}
+
+.order-item--number {
+	z-index: -1000;
+	position: absolute;
+	top: 65px;
+	left: 30px;
+	font-weight: 700;
+	font-size: 120px;
+	color: rgba(0,0,0,0.05)
 }
 
 /* paid */
@@ -228,6 +291,12 @@
 
 #paid p {
   margin: 15px 0;
+}
+
+.delivery-logos {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 /* footer */
@@ -259,150 +328,150 @@ h1.title-yellow {
 }
 
 .advantages-list {
-    height: 700px;
-    position: relative;
+  height: 700px;
+  position: relative;
 }
 
 .advantages-tree {
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -45%);
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -45%);
 }
 
 .advantages-list-item {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
 }
 
 .advantages-list-item--icon {
-    width: 80px;
+  width: 80px;
 }
 
 .advantages-list-item--heading {
-    font-family: Lato;
-    font-weight: 900;
-    text-align: center;
+  font-family: Lato;
+  font-weight: 900;
+  text-align: center;
 }
 
 .advantages-list-item--text {
-    font-family: Lato;
-    font-size: 13px;
-    text-align: center;
+  font-family: Lato;
+  font-size: 13px;
+  text-align: center;
 }
 
 @media (max-width: 1199.98px) {
-    .advantages-arrow-1,
-    .advantages-arrow-2,
-    .advantages-arrow-3,
-    .advantages-arrow-4,
-    .advantages-arrow-5,
-    .advantages-arrow-6,
-    .advantages-tree {
-        display: none;
-    }
-    .advantages-safety {
-        left: 15vw;
-        top: 100px;
-    }
-    
-    .advantages-speed {
-        left: 15vw;
-        top: 275px;
-    }
-    
-    .advantages-realism {
-        left: 15vw;
-        top: 450px;
-    }
-    
-    .advantages-ukraine {
-        right: 15vw;
-        top: 100px;
-    }
-    
-    .advantages-no-smells {
-        right: 15vw;
-        top: 275px;
-    }
-    
-    .advantages-10-years {
-        right: 15vw;
-        top: 450px;
-    }
+  .advantages-arrow-1,
+  .advantages-arrow-2,
+  .advantages-arrow-3,
+  .advantages-arrow-4,
+  .advantages-arrow-5,
+  .advantages-arrow-6,
+  .advantages-tree {
+    display: none;
+  }
+  .advantages-safety {
+    left: 15vw;
+    top: 100px;
+  }
+
+  .advantages-speed {
+    left: 15vw;
+    top: 275px;
+  }
+
+  .advantages-realism {
+    left: 15vw;
+    top: 450px;
+  }
+
+  .advantages-ukraine {
+    right: 15vw;
+    top: 100px;
+  }
+
+  .advantages-no-smells {
+    right: 15vw;
+    top: 275px;
+  }
+
+  .advantages-10-years {
+    right: 15vw;
+    top: 450px;
+  }
 }
 @media (min-width: 1200px) {
-    .advantages-arrow-1 {
-        position: absolute;
-        left: 400px;
-        top: 150px;
-        width: 150px
-    }
-    .advantages-arrow-2 {
-        position: absolute;
-        left: 250px;
-        top: 310px;
-        width: 250px
-    }
-    .advantages-arrow-3 {
-        position: absolute;
-        left: 380px;
-        top: 300px;
-        width: 150px
-    }
-    .advantages-arrow-4 {
-        position: absolute;
-        right: 400px;
-        top: 150px;
-        width: 150px;
-        transform: rotate(90deg)
-    }
-    .advantages-arrow-5 {
-        position: absolute;
-        right: 250px;
-        top: 310px;
-        width: 250px;
-        transform: rotate(180deg)
-    }
-    .advantages-arrow-6 {
-        position: absolute;
-        right: 380px;
-        top: 300px;
-        width: 150px;
-        transform: rotate(270deg)
-    }
-    .advantages-safety {
-        left: 250px;
-        top: 100px;
-    }
-    
-    .advantages-speed {
-        left: 100px;
-        top: 275px;
-    }
-    
-    .advantages-realism {
-        left: 250px;
-        top: 450px;
-    }
-    
-    .advantages-ukraine {
-        right: 250px;
-        top: 100px;
-    }
-    
-    .advantages-no-smells {
-        right: 100px;
-        top: 275px;
-    }
-    
-    .advantages-10-years {
-        right: 250px;
-        top: 450px;
-    }
+  .advantages-arrow-1 {
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    width: 150px;
+  }
+  .advantages-arrow-2 {
+    position: absolute;
+    left: 250px;
+    top: 310px;
+    width: 250px;
+  }
+  .advantages-arrow-3 {
+    position: absolute;
+    left: 380px;
+    top: 300px;
+    width: 150px;
+  }
+  .advantages-arrow-4 {
+    position: absolute;
+    right: 400px;
+    top: 150px;
+    width: 150px;
+    transform: rotate(90deg);
+  }
+  .advantages-arrow-5 {
+    position: absolute;
+    right: 250px;
+    top: 310px;
+    width: 250px;
+    transform: rotate(180deg);
+  }
+  .advantages-arrow-6 {
+    position: absolute;
+    right: 380px;
+    top: 300px;
+    width: 150px;
+    transform: rotate(270deg);
+  }
+  .advantages-safety {
+    left: 250px;
+    top: 100px;
+  }
+
+  .advantages-speed {
+    left: 100px;
+    top: 275px;
+  }
+
+  .advantages-realism {
+    left: 250px;
+    top: 450px;
+  }
+
+  .advantages-ukraine {
+    right: 250px;
+    top: 100px;
+  }
+
+  .advantages-no-smells {
+    right: 100px;
+    top: 275px;
+  }
+
+  .advantages-10-years {
+    right: 250px;
+    top: 450px;
+  }
 }
