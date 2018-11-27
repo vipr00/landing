@@ -51,7 +51,7 @@ body {
   font-size: 4.5rem;
   padding: 25px 0px;
 }
-#main .timer-container {
+.timer-container {
   background-image: url(images/novyy-god-yolka-girlyandy-raznocvetnye.png);
   background-repeat: no-repeat;
   height: 400px;
@@ -107,16 +107,6 @@ body {
 #better {
   padding: 50px 0;
   position: relative;
-}
-
-.better-wave {
-	position: absolute;
-	top: -60px;
-  height: 70px;
-  width: 100%;
-  background-image: url(images/volna.png);
-  background-size: 100% 100%;
-  border-top: 0;
 }
 
 .better-item-group {
@@ -286,7 +276,8 @@ body {
   padding: 20px 0;
   background-image: url(images/paid/logo_big.png);
   background-repeat: no-repeat;
-  background-size: contain;
+	background-size: contain;
+	margin-bottom: 60px;
 }
 
 #paid p {
@@ -299,6 +290,34 @@ body {
 	justify-content: space-evenly;
 }
 
+/* DISCOUNT SECTION */
+.discount {
+	background-image: url(images/discount/bg.png);
+	background-size: cover;
+	height: 500px;
+	position: relative;
+}
+
+.discount-title {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.discount-container {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 600px;
+}
+
+
+/* REVIEWS SECTION */
+#reviews {
+	padding-top: 120px;
+}
 /* footer */
 /*#footer {*/
 /*padding: 20px 0;*/
@@ -323,8 +342,14 @@ h1.title-yellow {
   text-transform: uppercase;
 }
 
-.wave.latest {
-  margin: 20px 0;
+.wave {
+	position: absolute;
+	top: -60px;
+  height: 80px;
+  width: 100%;
+  background-image: url(images/volna.png);
+  background-size: 100% 100%;
+  border-top: 0;
 }
 
 .advantages-list {
