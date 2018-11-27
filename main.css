@@ -1,39 +1,39 @@
-  /* header */
-    #header {
-        margin-bottom: 0;
-    }
+/* header */
+#header {
+  margin-bottom: 0;
+}
 
-    #header .nav.menu {
-        padding-top: 50px;
-    }
+#header .nav.menu {
+  padding-top: 50px;
+}
 
-    #header .nav li a {
-        color: #000000;
-        font-weight: bold;
-    }
-    #header .nav>li>a:focus,
-    #header .nav>li>a:hover {
-        background-color: transparent;
-        color: #056527;
-    }
+#header .nav li a {
+  color: #000000;
+  font-weight: bold;
+}
+#header .nav > li > a:focus,
+#header .nav > li > a:hover {
+  background-color: transparent;
+  color: #056527;
+}
 
-    #header .btn.order-call {
-        width: 100%;
-        background-color: #056527;
-        color: #fff;
-    }
+#header .btn.order-call {
+  width: 100%;
+  background-color: #056527;
+  color: #fff;
+}
 
-    #header .navbar-brand {
-        height: 100%;
-    }
+#header .navbar-brand {
+  height: 100%;
+}
 
-    #header .navbar-brand img {
-        height: 100%;
-    }
+#header .navbar-brand img {
+  height: 100%;
+}
 
-    #header .navbar-toggle .icon-bar {
-        background-color: #056527;
-    }
+#header .navbar-toggle .icon-bar {
+  background-color: #056527;
+}
 
     /* main section */
     #main {
@@ -112,38 +112,38 @@
         border-top: 0;
     }
 
-    #better .item {
-        padding: 0 15px;
-    }
-    #better .item p {
-        margin-top: 15px;
-        font-weight: 600;
-    }
-    /* TODO LEFT AND RIGHT CHRISTMAS TREE*/
-    /*#better:before {*/
-        /*content: '';*/
-        /*position: absolute;*/
-        /*width: 100%;*/
-        /*max-width: 25%;*/
-        /*display: block;*/
-        /*height: 100%;*/
-        /*background-image: url(images/better/left.png);*/
-        /*background-repeat: no-repeat;*/
-        /*background-size: contain;*/
-        /*left: 0;*/
-    /*}*/
-    /*#better:after {*/
-        /*content: '';*/
-        /*position: absolute;*/
-        /*width: 100%;*/
-        /*right: 0;*/
-        /*max-width: 25%;*/
-        /*display: block;*/
-        /*height: 100%;*/
-        /*background-image: url(images/better/right.png);*/
-        /*background-repeat: no-repeat;*/
-        /*background-size: contain;*/
-    /*}
+#better .item {
+  padding: 0 15px;
+}
+#better .item p {
+  margin-top: 15px;
+  font-weight: 600;
+}
+/* TODO LEFT AND RIGHT CHRISTMAS TREE*/
+/*#better:before {*/
+/*content: '';*/
+/*position: absolute;*/
+/*width: 100%;*/
+/*max-width: 25%;*/
+/*display: block;*/
+/*height: 100%;*/
+/*background-image: url(images/better/left.png);*/
+/*background-repeat: no-repeat;*/
+/*background-size: contain;*/
+/*left: 0;*/
+/*}*/
+/*#better:after {*/
+/*content: '';*/
+/*position: absolute;*/
+/*width: 100%;*/
+/*right: 0;*/
+/*max-width: 25%;*/
+/*display: block;*/
+/*height: 100%;*/
+/*background-image: url(images/better/right.png);*/
+/*background-repeat: no-repeat;*/
+/*background-size: contain;*/
+/*}
 
     #catalog h1.title {
         color: #dcb86c;
@@ -188,64 +188,140 @@
     }
     */
 
-    /* more section */
+/* more section */
 
-    .more {
-        padding: 20px 0;
-        background-image: url(images/more_banner.png);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        color: #fff;
-    }
-    .more input {
-        background: transparent;
-    }
+.more {
+  padding: 20px 0;
+  background-image: url(images/more_banner.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.more input {
+  background: transparent;
+}
 
-    /* order */
-    #order img {
-        max-height: 50px;
-    }
+/* order */
+#order img {
+  max-height: 50px;
+}
 
-    #order span.glyphicon {
-        font-size: 16px;
-        float: right;
-    }
+#order span.glyphicon {
+  font-size: 16px;
+  float: right;
+}
 
-    /* paid */
-    #paid {
-        padding: 20px 0;
-        background-image: url(images/paid/logo_big.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+/* paid */
+#paid {
+  padding: 20px 0;
+  background-image: url(images/paid/logo_big.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
-    #paid p {
-        margin: 15px 0;
-    }
+#paid p {
+  margin: 15px 0;
+}
 
-    /* footer */
-    /*#footer {*/
-        /*padding: 20px 0;*/
-        /*background-image: url(images/santa.png);*/
-        /*background-repeat: no-repeat;*/
-        /*background-size: contain;*/
-    /*}*/
+/* footer */
+/*#footer {*/
+/*padding: 20px 0;*/
+/*background-image: url(images/santa.png);*/
+/*background-repeat: no-repeat;*/
+/*background-size: contain;*/
+/*}*/
 
-    /* global */
-    .btn-green {
-        background-color: #056527;
-        color: #fff;
-    }
-    .btn-green:hover {
-        color: #fff;
-    }
-    h1.title-yellow {
-        color: #dcb86c;
-        font-weight: 900;
-        text-align: center;
-        padding: 15px 0;
-    }
+/* global */
+.btn-green {
+  background-color: #056527;
+  color: #fff;
+}
+.btn-green:hover {
+  color: #fff;
+}
+h1.title-yellow {
+  color: #dcb86c;
+  font-weight: 900;
+  text-align: center;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
 
-    .wave.latest {
-        margin: 20px 0;
+.wave.latest {
+  margin: 20px 0;
+}
+
+.advantages-list {
+    height: 700px;
+    position: relative;
+}
+
+.advantages-tree {
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -45%);
+}
+
+.advantages-list-item {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.advantages-list-item--icon {
+    width: 80px;
+}
+
+.advantages-list-item--heading {
+    font-weight: 700;
+    text-align: center;
+}
+
+.advantages-list-item--text {
+    font-size: 13px;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .advantages-arrow-1 {
+        position: absolute;
+        left: 250px;
+        top: 100px;
+        /* width: 100px */
     }
+}
+
+.advantages-safety {
+    left: 250px;
+    top: 100px;
+}
+
+.advantages-speed {
+    left: 100px;
+    top: 275px;
+}
+
+.advantages-realism {
+    left: 250px;
+    top: 450px;
+}
+
+.advantages-ukraine {
+    right: 250px;
+    top: 100px;
+}
+
+.advantages-no-smells {
+    right: 100px;
+    top: 275px;
+}
+
+.advantages-10-years {
+    right: 250px;
+    top: 450px;
+}
