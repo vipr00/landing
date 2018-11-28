@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <html lang="uk">
-  <head>
+
+<head>
     <meta charset="utf-8" />
 
     <title>Ялинки</title>
@@ -11,52 +12,71 @@
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="fonts/lato.css" />
-  </head>
+</head>
 
-  <style></style>
+<style></style>
 
-  <body>
+<body>
     <nav class="navbar" id="header">
-      <div class="container">
-        <div class="navbar-header">
-          <button
-            type="button"
-            class="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#navbar"
-            aria-expanded="false"
-            aria-controls="navbar"
-          >
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span> <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="navbar-brand">
-            <a href="/"> <img src="images/logo.png" alt="" /> </a>
-          </div>
+        <div class="container">
+            <div class="navbar-header">
+
+                <div class="navbar-brand">
+                    <a href="/"> <img src="images/logo.png" alt="" /> </a>
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav menu">
+                    <li><a href="#catalog">Каталог</a></li>
+                    <li><a href="#oplata">Оплата і доставка</a></li>
+                    <li><a href="#certif">Сертифікати</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+                <ul class="nav navbar-nav nav-phone">
+                    <li>
+                        <div class="col-md-12">
+                            <h3 class="phone" onclick="window.open('tel:+380971568415');">
+                                <img src="https://img.icons8.com/android/48/000000/phone.png"> 097 156 84 15
+                            </h3>
+                            <button class="btn order-call">Замовити дзінок</button>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+
+                        <div class="mobile_menu">
+                            <div class="overlay">
+                                <nav class="overlayMenu">
+                                    <ul role="menu">
+                                        <li>
+                                            <a href="#catalog" role="menuitem">Каталог</a>
+                                        </li>
+                                        <li>
+                                            <a href="#oplata" role="menuitem">Оплата і доставка</a>
+                                        </li>
+                                        <li>
+                                            <a href="#certif" role="menuitem">Сертифікати</a>
+                                        </li>
+                                        <li>
+                                            <a href="#contacts" role="menuitem">Контакти</a>
+                                        </li>
+
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="navBurger" role="navigation" id="navToggle"></div>
+                        </div>
+                    </li>
+
+                </ul>
+
+
+            </div>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav menu">
-            <li><a href="#about">Каталог</a></li>
-            <li><a href="#skills">Оплата і доставка</a></li>
-            <li><a href="#serts">Сертифікати</a></li>
-            <li><a href="#">Контакти</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <div class="col-md-12">
-                <h3 class="phone">
-                 <img src="https://img.icons8.com/android/48/000000/phone.png"> 097 156 84 15
-                </h3>
-                <button class="btn order-call">Замовити дзінок</button>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
     </nav>
 
- <section id="main">
+    <section id="main">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -108,1585 +128,1502 @@
                 </div>
             </div>
         </div>
-</section>
+    </section>
 
     <section id="better">
-      <hr class="wave" />
-      <div class="container better-item-group">
-        <div class="row">
-          <div class="item col-md-4 text-center">
-            <img
-              src="images/better/icon1.png"
-              class="advantages-list-item--icon"
-              alt=""
-            />
-            <p class="advantages-list-item--heading">
-              Оплата онлайн <br />
-              або при отриманні
-            </p>
-          </div>
-          <div class="item col-md-4 text-center">
-            <img
-              src="images/better/icon2.png"
-              class="advantages-list-item--icon"
-              alt=""
-            />
-            <p class="advantages-list-item--heading">
-              Можливість <br />
-              оплати за договором
-            </p>
-          </div>
-          <div class="item col-md-4 text-center">
-            <img
-              src="images/better/icon3.png"
-              class="advantages-list-item--icon"
-              alt=""
-            />
-            <p class="advantages-list-item--heading">
-              Сертифікати <br />
-              якості на всі ялинки
-            </p>
-          </div>
+        <hr class="wave" />
+        <div class="container better-item-group">
+            <div class="row">
+                <div class="item col-md-4 text-center">
+                    <img src="images/better/icon1.png" class="advantages-list-item--icon" alt="" />
+                    <p class="advantages-list-item--heading">
+                        Оплата онлайн <br />
+                        або при отриманні
+                    </p>
+                </div>
+                <div class="item col-md-4 text-center">
+                    <img src="images/better/icon2.png" class="advantages-list-item--icon" alt="" />
+                    <p class="advantages-list-item--heading">
+                        Можливість <br />
+                        оплати за договором
+                    </p>
+                </div>
+                <div class="item col-md-4 text-center">
+                    <img src="images/better/icon3.png" class="advantages-list-item--icon" alt="" />
+                    <p class="advantages-list-item--heading">
+                        Сертифікати <br />
+                        якості на всі ялинки
+                    </p>
+                </div>
 
-          <div class="clearfix"></div>
+                <div class="clearfix"></div>
 
-          <div class="item col-md-4 text-center">
-            <img
-              src="images/better/icon4.png"
-              class="advantages-list-item--icon"
-              alt=""
-            />
-            <p class="advantages-list-item--heading">
-              Легка <br />
-              та швидка зборка
-            </p>
-          </div>
-          <div class="item col-md-4 text-center">
-            <img
-              src="images/better/icon5.png"
-              class="advantages-list-item--icon"
-              alt=""
-            />
-            <p class="advantages-list-item--heading">
-              Екологічна <br />
-              та безпечна
-            </p>
-          </div>
-          <div class="item col-md-4 text-center">
-            <img
-              src="images/better/icon6.png"
-              class="advantages-list-item--icon"
-              alt=""
-            />
-            <p class="advantages-list-item--heading">
-              Термін <br />
-              служби 10 років
-            </p>
-          </div>
+                <div class="item col-md-4 text-center">
+                    <img src="images/better/icon4.png" class="advantages-list-item--icon" alt="" />
+                    <p class="advantages-list-item--heading">
+                        Легка <br />
+                        та швидка зборка
+                    </p>
+                </div>
+                <div class="item col-md-4 text-center">
+                    <img src="images/better/icon5.png" class="advantages-list-item--icon" alt="" />
+                    <p class="advantages-list-item--heading">
+                        Екологічна <br />
+                        та безпечна
+                    </p>
+                </div>
+                <div class="item col-md-4 text-center">
+                    <img src="images/better/icon6.png" class="advantages-list-item--icon" alt="" />
+                    <p class="advantages-list-item--heading">
+                        Термін <br />
+                        служби 10 років
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-      <img class="better-bg left" src="images/advantages/left.png" alt="" />
-      <img class="better-bg right" src="images/advantages/right.png" alt="" />
+        <img class="better-bg left" src="images/advantages/left.png" alt="" />
+        <img class="better-bg right" src="images/advantages/right.png" alt="" />
     </section>
 
 
 
     <section class="more">
-      <div class="container">
-        <div class="row">
-          <h1 class="more-title">Бажаєте дізнатись більше про наші ялинки ?</h1>
-          <div class="col-md-offset-4 col-md-8">
-            <p class="more-form-title">
-              Просто заповніть форму і Вам одразу зателефонує наш консультант!
-            </p>
+        <div class="container">
             <div class="row">
-              <div class="form-group col-md-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Ваше ім'я"
-                  required
-                />
-              </div>
-              <div class="form-group col-md-5">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Номер телефону, наприклад"
-                  required
-                />
-              </div>
-              <button type="submit" class="btn btn-green col-md-2">
-                Надіслати
-              </button>
+                <h1 class="more-title">Бажаєте дізнатись більше про наші ялинки ?</h1>
+                <div class="col-md-offset-4 col-md-8">
+                    <p class="more-form-title">
+                        Просто заповніть форму і Вам одразу зателефонує наш консультант!
+                    </p>
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                            <input type="text" class="form-control" placeholder="Ваше ім'я" required />
+                        </div>
+                        <div class="form-group col-md-5">
+                            <input type="text" class="form-control" placeholder="Номер телефону, наприклад" required />
+                        </div>
+                        <button type="submit" class="btn btn-green col-md-2">
+                            Надіслати
+                        </button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- ADVANTAGES SECTION -->
     <section class="advantages">
-      <h1 class="title-yellow">переваги штучних ялинок</h1>
-      <div class="container advantages-list">
-        <img
-          class="advantages-tree"
-          src="images/advantages/main.png"
-          alt="Tree"
-        />
-        <div class="arrows">
-          <img
-            class="advantages-arrow-1"
-            src="images/advantages/arrow1.png"
-            alt=""
-          />
-          <img
-            class="advantages-arrow-2"
-            src="images/advantages/arrow2.png"
-            alt=""
-          />
-          <img
-            class="advantages-arrow-3"
-            src="images/advantages/arrow3.png"
-            alt=""
-          />
-          <img
-            class="advantages-arrow-4"
-            src="images/advantages/arrow1.png"
-            alt=""
-          />
-          <img
-            class="advantages-arrow-5"
-            src="images/advantages/arrow2.png"
-            alt=""
-          />
-          <img
-            class="advantages-arrow-6"
-            src="images/advantages/arrow3.png"
-            alt=""
-          />
-        </div>
+        <h1 class="title-yellow">переваги штучних ялинок</h1>
+        <div class="container advantages-list">
+            <img class="advantages-tree" src="images/advantages/main.png" alt="Tree" />
+            <div class="arrows">
+                <img class="advantages-arrow-1" src="images/advantages/arrow1.png" alt="" />
+                <img class="advantages-arrow-2" src="images/advantages/arrow2.png" alt="" />
+                <img class="advantages-arrow-3" src="images/advantages/arrow3.png" alt="" />
+                <img class="advantages-arrow-4" src="images/advantages/arrow1.png" alt="" />
+                <img class="advantages-arrow-5" src="images/advantages/arrow2.png" alt="" />
+                <img class="advantages-arrow-6" src="images/advantages/arrow3.png" alt="" />
+            </div>
 
-        <div class="advantages-list-item advantages-safety">
-          <img
-            class="advantages-list-item--icon"
-            src="images/advantages/icon1.png"
-            alt="Safety"
-          />
-          <p class="advantages-list-item--heading">
-            Безпечний та <br />
-            екологічно чистий продукт
-          </p>
-          <p class="advantages-list-item--text">
-            Присутні сертифікати <br />
-            якості та безпеки
-          </p>
-        </div>
+            <div class="advantages-list-item advantages-safety">
+                <img class="advantages-list-item--icon" src="images/advantages/icon1.png" alt="Safety" />
+                <p class="advantages-list-item--heading">
+                    Безпечний та <br />
+                    екологічно чистий продукт
+                </p>
+                <p class="advantages-list-item--text">
+                    Присутні сертифікати <br />
+                    якості та безпеки
+                </p>
+            </div>
 
-        <div class="advantages-list-item advantages-speed">
-          <img
-            class="advantages-list-item--icon"
-            src="images/advantages/icon2.png"
-            alt="Speed"
-          />
-          <p class="advantages-list-item--heading">
-            Легкий та швидкий <br />
-            монтаж і демонтаж
-          </p>
-          <p class="advantages-list-item--text">
-            Підставка в комплекті. <br />
-            Монтаж займає до 30хв
-          </p>
-        </div>
+            <div class="advantages-list-item advantages-speed">
+                <img class="advantages-list-item--icon" src="images/advantages/icon2.png" alt="Speed" />
+                <p class="advantages-list-item--heading">
+                    Легкий та швидкий <br />
+                    монтаж і демонтаж
+                </p>
+                <p class="advantages-list-item--text">
+                    Підставка в комплекті. <br />
+                    Монтаж займає до 30хв
+                </p>
+            </div>
 
-        <div class="advantages-list-item advantages-realism">
-          <img
-            class="advantages-list-item--icon"
-            src="images/advantages/icon3.png"
-            alt="Realism"
-          />
-          <p class="advantages-list-item--heading">
-            Максимальна <br />
-            реалістичність
-          </p>
-          <p class="advantages-list-item--text">
-            Наші ялинки точно <br />
-            як натуральне дерево
-          </p>
-        </div>
+            <div class="advantages-list-item advantages-realism">
+                <img class="advantages-list-item--icon" src="images/advantages/icon3.png" alt="Realism" />
+                <p class="advantages-list-item--heading">
+                    Максимальна <br />
+                    реалістичність
+                </p>
+                <p class="advantages-list-item--text">
+                    Наші ялинки точно <br />
+                    як натуральне дерево
+                </p>
+            </div>
 
-        <div class="advantages-list-item advantages-ukraine">
-          <img
-            class="advantages-list-item--icon"
-            src="images/advantages/icons4.png"
-            alt="In Ukraine"
-          />
-          <p class="advantages-list-item--heading">
-            Власне українське <br />
-            виробництво
-          </p>
-          <p class="advantages-list-item--text">
-            Виробницто знаходиться <br />
-            в західній Україні
-          </p>
-        </div>
+            <div class="advantages-list-item advantages-ukraine">
+                <img class="advantages-list-item--icon" src="images/advantages/icons4.png" alt="In Ukraine" />
+                <p class="advantages-list-item--heading">
+                    Власне українське <br />
+                    виробництво
+                </p>
+                <p class="advantages-list-item--text">
+                    Виробницто знаходиться <br />
+                    в західній Україні
+                </p>
+            </div>
 
-        <div class="advantages-list-item advantages-no-smells">
-          <img
-            class="advantages-list-item--icon"
-            src="images/advantages/icon5 копия 3.png"
-            alt="No smells"
-          />
-          <p class="advantages-list-item--heading">
-            Не має <br />
-            сторонніх запахів
-          </p>
-          <p class="advantages-list-item--text">
-            Продукт безпечний <br />
-            для дітей і тварин
-          </p>
-        </div>
+            <div class="advantages-list-item advantages-no-smells">
+                <img class="advantages-list-item--icon" src="images/advantages/icon5 копия 3.png" alt="No smells" />
+                <p class="advantages-list-item--heading">
+                    Не має <br />
+                    сторонніх запахів
+                </p>
+                <p class="advantages-list-item--text">
+                    Продукт безпечний <br />
+                    для дітей і тварин
+                </p>
+            </div>
 
-        <div class="advantages-list-item advantages-10-years">
-          <img
-            class="advantages-list-item--icon"
-            src="images/advantages/10.png"
-            alt="10 years guarantee"
-          />
-          <p class="advantages-list-item--heading">
-            Строк користування <br />
-            не менше 10 років
-          </p>
-          <p class="advantages-list-item--text">
-            Не потрібно кожного року <br />
-            купувати нову ялинку
-          </p>
+            <div class="advantages-list-item advantages-10-years">
+                <img class="advantages-list-item--icon" src="images/advantages/10.png" alt="10 years guarantee" />
+                <p class="advantages-list-item--heading">
+                    Строк користування <br />
+                    не менше 10 років
+                </p>
+                <p class="advantages-list-item--text">
+                    Не потрібно кожного року <br />
+                    купувати нову ялинку
+                </p>
+            </div>
         </div>
-      </div>
     </section>
 
-	  
- <!-- CATALOG SECTION -->	  
-<section class="catalog">
-    <div class="catalog__wrapper">
-        <h2 class="catalog__title">
-            Каталог ялинок
-        </h2>
-        <ul class="catalog__list">
-            <li class="catalog__item catalog__item--hit" data-id="1">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree1.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Казка зелена та біла
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 100 см до 500 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              470 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              235 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+    <!-- <div id="overlay" onclick="off()">
+
+        <img src="" alt="">
+
+
+
+    </div>
+
+
+    <button onclick="on()">Turn on overlay effect</button> -->
+
+    <!-- CATALOG SECTION -->
+    <section class="catalog">
+
+        <a href="" name="catalog"></a>
+        <div class="catalog__wrapper">
+
+
+
+
+            <h2 class="catalog__title">
+                Каталог ялинок
+            </h2>
+
+            <ul class="catalog__list">
+                <li class="catalog__item catalog__item--hit" data-id="1">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree1.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Казка зелена та біла
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 100 см до 500 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height">
-                                    <option>100 cм</option>
-                                    <option>130 cм</option>
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                    <option>300 cм</option>
-                                    <option>400 cм</option>
-                                    <option>500 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            470 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            235 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Казка зелена та біла
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 100 см до 500 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height">
+                                        <option>100 cм</option>
+                                        <option>130 cм</option>
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                        <option>300 cм</option>
+                                        <option>400 cм</option>
+                                        <option>500 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">470</span>
+                                    <span class="catalog__price catalog__price--order">235 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">470</span>
-                                <span class="catalog__price catalog__price--order">235 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/form-photo1.jpg" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
+                                    <button type="button" onclick="open_zoom_photo();">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/form-photo1.jpg" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item catalog__item--hit" data-id="2">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree2.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Лідія з білими кінчиками
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 100 см до 250 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              660 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              330 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item catalog__item--hit" data-id="2">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree2.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Лідія з білими кінчиками
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 100 см до 250 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height2">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height2">
-                                    <option>100 cм</option>
-                                    <option>130 cм</option>
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            660 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            330 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Лідія з білими кінчиками
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 100 см до 250 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height2">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height2">
+                                        <option>100 cм</option>
+                                        <option>130 cм</option>
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">660</span>
+                                    <span class="catalog__price catalog__price--order">330 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">660</span>
-                                <span class="catalog__price catalog__price--order">330 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/2 snall.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/2 main small.png" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/2 snall.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/2 main small.png" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item catalog__item--hit" data-id="3">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree3.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Ялинка Різдвяна
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 100 см до 250 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              1580 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              790 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item catalog__item--hit" data-id="3">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree3.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Ялинка Різдвяна
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 100 см до 250 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height3">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height3">
-                                    <option>100 cм</option>
-                                    <option>130 cм</option>
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            1580 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            790 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Ялинка Різдвяна
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 100 см до 250 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height3">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height3">
+                                        <option>100 cм</option>
+                                        <option>130 cм</option>
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">1580</span>
+                                    <span class="catalog__price catalog__price--order">790 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">1580</span>
-                                <span class="catalog__price catalog__price--order">790 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/3 zoom small.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/3 main small.png" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/3 zoom small.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/3 main small.png" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item" data-id="4">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree4.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Сосна зелена з білими кінчиками
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 70 см до 300 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              470 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              235 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item" data-id="4">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree4.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Сосна зелена з білими кінчиками
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 70 см до 300 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height4">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height4">
-                                    <option>70 cм</option>
-                                    <option>100 cм</option>
-                                    <option>130 cм</option>
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                    <option>300 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            470 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            235 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Сосна зелена з білими кінчиками
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 70 см до 300 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height4">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height4">
+                                        <option>70 cм</option>
+                                        <option>100 cм</option>
+                                        <option>130 cм</option>
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                        <option>300 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">470</span>
+                                    <span class="catalog__price catalog__price--order">235 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">470</span>
-                                <span class="catalog__price catalog__price--order">235 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/4 zoom small.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/main 4 small.png" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/4 zoom small.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/main 4 small.png" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
 
-            </li>
-            <li class="catalog__item" data-id="5">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree5.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Сосна світло зелена
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 70 см до 300 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              470 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              235 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
-                            Сосна світло зелена
+                </li>
+                <li class="catalog__item" data-id="5">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree5.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
+                            Сосна світло зелена класік
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 70 см до 300 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height5">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height5">
-                                    <option>70 cм</option>
-                                    <option>100 cм</option>
-                                    <option>130 cм</option>
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                    <option>300 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            470 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            235 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Сосна світло зелена
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 70 см до 300 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height5">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height5">
+                                        <option>70 cм</option>
+                                        <option>100 cм</option>
+                                        <option>130 cм</option>
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                        <option>300 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">470</span>
+                                    <span class="catalog__price catalog__price--order">235 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">470</span>
-                                <span class="catalog__price catalog__price--order">235 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/5 zoom small.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/photo 5 small.png" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/5 zoom small.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/photo 5 small.png" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item" data-id="6">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree6.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Сосна розпушена з білими кінчиками
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 70 см до 300 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              470 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              235 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item" data-id="6">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree6.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Сосна розпушена з білими кінчиками
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 70 см до 300 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height6">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height6">
-                                    <option>70 cм</option>
-                                    <option>100 cм</option>
-                                    <option>130 cм</option>
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                    <option>300 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            470 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            235 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Сосна розпушена з білими кінчиками
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 70 см до 300 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height6">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height6">
+                                        <option>70 cм</option>
+                                        <option>100 cм</option>
+                                        <option>130 cм</option>
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                        <option>300 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">470</span>
+                                    <span class="catalog__price catalog__price--order">235 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">470</span>
-                                <span class="catalog__price catalog__price--order">235 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/6 zoom small.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/photo 6 main small.png" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/6 zoom small.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/photo 6 main small.png" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item" data-id="7">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree7.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Ялинка Анастасія зелена і голуба
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 100 см до 250 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              998 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              499 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item" data-id="7">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree7.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Ялинка Анастасія зелена і голуба
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 100 см до 250 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height7">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height7">
-                                    <option>100 cм</option>
-                                    <option>130 cм</option>
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            998 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            499 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Ялинка Анастасія зелена і голуба
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 100 см до 250 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height7">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height7">
+                                        <option>100 cм</option>
+                                        <option>130 cм</option>
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">998</span>
+                                    <span class="catalog__price catalog__price--order">499 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">998</span>
-                                <span class="catalog__price catalog__price--order">499 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/7 zoom small.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/photo 7 main small.png" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/7 zoom small.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/photo 7 main small.png" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item" data-id="8">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree8.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Ялинка лита Президентська
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 150 см до 250 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              3760 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              1880 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item" data-id="8">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree8.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Ялинка лита Президентська
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 150 см до 250 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height8">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height8">
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            3760 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            1880 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Ялинка лита Президентська
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 150 см до 250 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height8">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height8">
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">3760</span>
+                                    <span class="catalog__price catalog__price--order">1880 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">3760</span>
-                                <span class="catalog__price catalog__price--order">1880 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/form-photo1.jpg" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/form-photo1.jpg" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item" data-id="9">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree9.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Ялинка лита Буковельська
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 150 см до 250 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              3760 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              1880 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item" data-id="9">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree9.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Ялинка лита Буковельська
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 150 см до 250 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height9">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height9">
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            3760 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            1880 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Ялинка лита Буковельська
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 150 см до 250 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height9">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height9">
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">3760</span>
+                                    <span class="catalog__price catalog__price--order">1880 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">3760</span>
-                                <span class="catalog__price catalog__price--order">1880 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/9 zoom small.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/main 9 zoom small.png" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/9 zoom small.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/main 9 zoom small.png" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item" data-id="10">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree10.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Ялинка лита Альпійська
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 100 см до 500 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              3760 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              1880 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item" data-id="10">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree10.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Ялинка лита Альпійська
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 100 см до 500 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height10">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height10">
-                                    <option>100 cм</option>
-                                    <option>130 cм</option>
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                    <option>300 cм</option>
-                                    <option>400 cм</option>
-                                    <option>500 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            3760 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            1880 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Ялинка лита Альпійська
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 100 см до 500 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height10">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height10">
+                                        <option>100 cм</option>
+                                        <option>130 cм</option>
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                        <option>300 cм</option>
+                                        <option>400 cм</option>
+                                        <option>500 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">3760</span>
+                                    <span class="catalog__price catalog__price--order">1880 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">3760</span>
-                                <span class="catalog__price catalog__price--order">1880 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/10 zoom small.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/main 10 small.png" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/10 zoom small.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/main 10 small.png" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item" data-id="11">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree11.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Ялинка лита Ковалівська
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 150 см до 250 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              3760 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              1880 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item" data-id="11">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree11.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Ялинка лита Ковалівська
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 150 см до 250 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height11">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height11">
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            3760 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            1880 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Ялинка лита Ковалівська
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 150 см до 250 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height11">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height11">
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">3760</span>
+                                    <span class="catalog__price catalog__price--order">1880 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">3760</span>
-                                <span class="catalog__price catalog__price--order">1880 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/11 zoom small.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/main 11 small.png" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/11 zoom small.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/main 11 small.png" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item" data-id="12">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree12.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Ялинка лита класік
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 120 см до 220 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              3150 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              1575 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item" data-id="12">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree12.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Ялинка лита класік
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 120 см до 220 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height12">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height12">
-                                    <option>120 cм</option>
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            3150 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            1575 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Ялинка лита класік
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 120 см до 220 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height12">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height12">
+                                        <option>120 cм</option>
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">3150</span>
+                                    <span class="catalog__price catalog__price--order">1575 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">3150</span>
-                                <span class="catalog__price catalog__price--order">1575 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/photo 12 zoom small.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/photo 12 zoom small.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item" data-id="13">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree13.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Ялинка лита преміум
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 120 см до 300 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              3900 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              1950 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item" data-id="13">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree13.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Ялинка лита преміум
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 120 см до 300 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height13">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height13">
-                                    <option>120 cм</option>
-                                    <option>150 cм</option>
-                                    <option>180 cм</option>
-                                    <option>200 cм</option>
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                    <option>300 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            3900 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            1950 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Ялинка лита преміум
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 120 см до 300 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height13">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height13">
+                                        <option>120 cм</option>
+                                        <option>150 cм</option>
+                                        <option>180 cм</option>
+                                        <option>200 cм</option>
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                        <option>300 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">3900</span>
+                                    <span class="catalog__price catalog__price--order">1950 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">3900</span>
-                                <span class="catalog__price catalog__price--order">1950 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/photo 13 zoom small 2.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/photo 13 zoom small 2.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
                         </div>
                     </div>
-                </div>
-            </li>
+                </li>
 
-            <li class="catalog__item" data-id="14">
-                <div class="catalog__present">
-                    <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
-                    <i>Гірлянда у&nbsp;подарунок</i>
-                </div>
-                <img class="catalog__image" src="images/catalog/tree14.jpg" width="255" height="420" alt="Ялинка">
-                <div class="catalog__description">
-                    <h3 class="catalog__description-title">
-                        Ялинка лита широка
-                    </h3>
-                    <p class="catalog__tre-size">
-                        (від 220 см до 300 см)
-                    </p>
-                    <span class="catalog__discount">-50%</span>
-            <span class="catalog__old-price">
-              11600 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-            </span>
-            <span class="catalog__price">
-              5800 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-            </span>
-                    <a class="catalog__button">Замовити</a>
-                </div>
-                <div class="catalog__order">
-                    <div class="catalog__order-wrapper">
-                        <h3 class="catalog__description-title catalog__description-title--order">
+                <li class="catalog__item" data-id="14">
+                    <div class="catalog__present">
+                        <img src="images/catalog/present.png" width="36" height="36" alt="Подарунок">
+                        <i>Гірлянда у&nbsp;подарунок</i>
+                    </div>
+                    <img class="catalog__image" src="images/catalog/tree14.jpg" width="255" height="420" alt="Ялинка">
+                    <div class="catalog__description">
+                        <h3 class="catalog__description-title">
                             Ялинка лита широка
                         </h3>
-                        <p class="catalog__tree-size catalog__tree-size--order">
+                        <p class="catalog__tre-size">
                             (від 220 см до 300 см)
                         </p>
-                        <div class="catalog__order-tree-cost">
-                            <div class="catalog__order-tree-size">
-                                <label for="tree-height14">Вибрати висоту</label>
-                                <select name="tree-height" id="tree-height14">
-                                    <option>220 cм</option>
-                                    <option>250 cм</option>
-                                    <option>300 cм</option>
-                                </select>
+                        <span class="catalog__discount">-50%</span>
+                        <span class="catalog__old-price">
+                            11600 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                        </span>
+                        <span class="catalog__price">
+                            5800 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                        </span>
+                        <a class="catalog__button">Замовити</a>
+                    </div>
+                    <div class="catalog__order">
+                        <div class="catalog__order-wrapper">
+                            <h3 class="catalog__description-title catalog__description-title--order">
+                                Ялинка лита широка
+                            </h3>
+                            <p class="catalog__tree-size catalog__tree-size--order">
+                                (від 220 см до 300 см)
+                            </p>
+                            <div class="catalog__order-tree-cost">
+                                <div class="catalog__order-tree-size">
+                                    <label for="tree-height14">Вибрати висоту</label>
+                                    <select name="tree-height" id="tree-height14">
+                                        <option>220 cм</option>
+                                        <option>250 cм</option>
+                                        <option>300 cм</option>
+                                    </select>
+                                </div>
+                                <div class="catalog__order-price">
+                                    <span class="catalog__old-price catalog__old-price--order">3900</span>
+                                    <span class="catalog__price catalog__price--order">1950 грн</span>
+                                </div>
                             </div>
-                            <div class="catalog__order-price">
-                                <span class="catalog__old-price catalog__old-price--order">3900</span>
-                                <span class="catalog__price catalog__price--order">1950 грн</span>
+                            <div class="catalog__order-image">
+                                <img src="images/catalog/photo 14 zoom small.png" width="139" height="123" alt="Фото1">
+                                <div class="catalog__order-prewiew">
+                                    <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
+                                    <button type="button">
+                                        <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
+                                    </button>
+                                </div>
+                            </div>
+                            <a class="catalog__button catalog__button--order">Замовити</a>
+                            <div class="catalog__present catalog__present--order">
+                                <span>+</span>
+                                <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
+                                <i>Гірлянда у&nbsp;подарунок</i>
                             </div>
                         </div>
-                        <div class="catalog__order-image">
-                            <img src="images/catalog/photo 14 zoom small.png" width="139" height="123" alt="Фото1">
-                            <div class="catalog__order-prewiew">
-                                <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
-                                <button type="button">
-                                    <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
-                                </button>
-                            </div>
-                        </div>
-                        <a class="catalog__button catalog__button--order">Замовити</a>
-                        <div class="catalog__present catalog__present--order">
-                            <span>+</span>
-                            <img src="images/catalog/present2.png" width="36" height="36" alt="Подарунок">
-                            <i>Гірлянда у&nbsp;подарунок</i>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
-        <div class="catalog__jewelry">
-            <p class="catalog__jewelry-title">
-                Не забудьте  прикрасити всю оселю!
-            </p>
-            <ul class="catalog__jewelry-list">
-                <li class="catalog__jewelry-item" data-id="15">
-                    <img class="catalog__image catalog__image--jewelry" src="images/catalog/jewelry1.jpg" width="270" height="164" alt="Гірлянда">
-                    <h3 class="catalog__description-title">
-                        Гірлянда зелена засніжена
-                    </h3>
-                    <div class="catalog__description">
-                        <p class="catalog__tre-size">
-                            (довжина 2 м, діаметр 260 мм)
-                        </p>
-                        <span class="catalog__discount">-50%</span>
-              <span class="catalog__old-price">
-                600 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-              </span>
-              <span class="catalog__price">
-                300 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-              </span>
-                        <a class="catalog__button">Замовити</a>
-                    </div>
-                </li>
-
-                <li class="catalog__jewelry-item" data-id="16">
-                    <img class="catalog__image catalog__image--jewelry" src="images/catalog/jewelry2.jpg" width="270" height="164" alt="Гірлянда">
-                    <div class="catalog__description">
-                        <h3 class="catalog__description-title">
-                            Гірлянда зелена світла
-                        </h3>
-                        <p class="catalog__tre-size">
-                            (довжина 2 м, діаметр 260 мм)
-                        </p>
-                        <span class="catalog__discount">-50%</span>
-              <span class="catalog__old-price">
-                600 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-              </span>
-              <span class="catalog__price">
-                300 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-              </span>
-                        <a class="catalog__button">Замовити</a>
-                    </div>
-                </li>
-
-                <li class="catalog__jewelry-item" data-id="17">
-                    <img class="catalog__image catalog__image--jewelry" src="images/catalog/jewelry3.jpg" width="270" height="164" alt="Гірлянда">
-                    <div class="catalog__description">
-                        <h3 class="catalog__description-title">
-                            Гірлянда зелена темна
-                        </h3>
-                        <p class="catalog__tre-size">
-                            (довжина 2 м, діаметр 200 мм)
-                        </p>
-                        <span class="catalog__discount">-50%</span>
-              <span class="catalog__old-price">
-                600 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-              </span>
-              <span class="catalog__price">
-                300 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-              </span>
-                        <a class="catalog__button">Замовити</a>
-                    </div>
-                </li>
-
-                <li class="catalog__jewelry-item catalog__jewelry-item--4" data-id="18">
-                    <img class="catalog__image catalog__image--jewelry" src="images/catalog/jewelry4.jpg" width="270" height="164" alt="Гірлянда">
-                    <div class="catalog__description">
-                        <h3 class="catalog__description-title">
-                            Гірлянда зелена темна
-                        </h3>
-                        <p class="catalog__tre-size">
-                            в асортименті
-                        </p>
-                        <span class="catalog__discount">-50%</span>
-              <span class="catalog__old-price">
-                10 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
-              </span>
-              <span class="catalog__price">
-                5 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
-              </span>
-                        <a class="catalog__button">Замовити</a>
                     </div>
                 </li>
             </ul>
+            <div class="catalog__jewelry">
+                <p class="catalog__jewelry-title">
+                    Не забудьте прикрасити всю оселю!
+                </p>
+                <ul class="catalog__jewelry-list">
+                    <li class="catalog__jewelry-item" data-id="15">
+                        <img class="catalog__image catalog__image--jewelry" src="images/catalog/jewelry1.jpg" width="270"
+                            height="164" alt="Гірлянда">
+                        <h3 class="catalog__description-title">
+                            Гірлянда "Люкс"
+                        </h3>
+                        <div class="catalog__description">
+                            <p class="catalog__tre-size">
+                                (довжина 2 м, діаметр 260 мм)
+                            </p>
+                            <span class="catalog__discount">-50%</span>
+                            <span class="catalog__old-price">
+                                600 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                            </span>
+                            <span class="catalog__price">
+                                300 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                            </span>
+                            <a class="catalog__button">Замовити</a>
+                        </div>
+                    </li>
+
+                    <li class="catalog__jewelry-item" data-id="16">
+                        <img class="catalog__image catalog__image--jewelry" src="images/catalog/jewelry2.jpg" width="270"
+                            height="164" alt="Гірлянда">
+                        <div class="catalog__description">
+                            <h3 class="catalog__description-title">
+                                Гірлянда "Президентська"
+                            </h3>
+                            <p class="catalog__tre-size">
+                                (довжина 2 м, діаметр 260 мм)
+                            </p>
+                            <span class="catalog__discount">-50%</span>
+                            <span class="catalog__old-price">
+                                600 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                            </span>
+                            <span class="catalog__price">
+                                300 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                            </span>
+                            <a class="catalog__button">Замовити</a>
+                        </div>
+                    </li>
+
+                    <li class="catalog__jewelry-item" data-id="17">
+                        <img class="catalog__image catalog__image--jewelry" src="images/catalog/jewelry3.jpg" width="270"
+                            height="164" alt="Гірлянда">
+                        <div class="catalog__description">
+                            <h3 class="catalog__description-title">
+                                Гірлянда "Стандарт"
+                            </h3>
+                            <p class="catalog__tre-size">
+                                (довжина 2 м, діаметр 200 мм)
+                            </p>
+                            <span class="catalog__discount">-50%</span>
+                            <span class="catalog__old-price">
+                                600 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                            </span>
+                            <span class="catalog__price">
+                                300 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                            </span>
+                            <a class="catalog__button">Замовити</a>
+                        </div>
+                    </li>
+
+                    <li class="catalog__jewelry-item catalog__jewelry-item--4" data-id="18">
+                        <img class="catalog__image catalog__image--jewelry" src="images/catalog/jewelry4.jpg" width="270"
+                            height="164" alt="Гірлянда">
+                        <div class="catalog__description">
+                            <h3 class="catalog__description-title">
+                                Інші аксесуари
+                            </h3>
+                            <p class="catalog__tre-size">
+                                в асортименті
+                            </p>
+                            <span class="catalog__discount">-50%</span>
+                            <span class="catalog__old-price">
+                                10 <img src="images/catalog/ukraine-hryvna2.png" width="9" height="12" alt="Гривень">
+                            </span>
+                            <span class="catalog__price">
+                                5 <sup><img src="images/catalog/ukraine-hryvna.png" width="9" height="12" alt="Гривень"></sup>
+                            </span>
+                            <a class="catalog__button">Замовити</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</section>	  
-	  
- <!-- ORDER SECTION -->	  
+    </section>
+
+    <!-- ORDER SECTION -->
     <section id="order">
-      <div class="container">
-        <div class="row">
-          <h1 class="title-yellow">ЯК ЗАМОВИТИ ЯЛИНКУ</h1>
-          <div class="col-xs-4 text-center order-item">
-            <img src="images/order/1.png" class="order-image" alt="" />
-            <h3 class="order-item--header">
-              Виберіть ялинку
-              <span class="glyphicon glyphicon-arrow-right hidden-xs"></span>
-            </h3>
-            <p class="order-item--text">
-              та її висоту, та заповніть <br />
-              та надішліть форму подачі заявки
-            </p>
-            <p class="order-item--number">1</p>
-          </div>
-          <div class="col-xs-4 text-center order-item">
-            <img src="images/order/2.png" class="order-image" alt="" />
-            <h3 class="order-item--header">
-              Дзвінок менеджера
-              <span class="glyphicon glyphicon-arrow-right hidden-xs"></span>
-            </h3>
-            <p class="order-item--text">
-              надійде до Вас на протязі дня <br />
-              для узгодження деталей замовлення
-            </p>
-            <p class="order-item--number">2</p>
-          </div>
-          <div class="col-xs-4 text-center order-item">
-            <img src="images/order/3.png" class="order-image" alt="" />
-            <h3 class="order-item--header">Отримайте замовлення</h3>
-            <p class="order-item--text">
-              у кур'єра або у зручному <br />
-              віддуленні нової пошти
-            </p>
-            <p class="order-item--number">3</p>
-          </div>
+        <div class="container">
+            <div class="row">
+                <a href="" name="oplata"></a>
+                <h1 class="title-yellow">ЯК ЗАМОВИТИ ЯЛИНКУ</h1>
+                <div class="col-xs-4 text-center order-item">
+                    <img src="images/order/1.png" class="order-image" alt="" />
+                    <h3 class="order-item--header">
+                        Виберіть ялинку
+                        <span class="glyphicon glyphicon-arrow-right hidden-xs"></span>
+                    </h3>
+                    <p class="order-item--text">
+                        та її висоту, та заповніть <br />
+                        та надішліть форму подачі заявки
+                    </p>
+                    <p class="order-item--number">1</p>
+                </div>
+                <div class="col-xs-4 text-center order-item">
+                    <img src="images/order/2.png" class="order-image" alt="" />
+                    <h3 class="order-item--header">
+                        Дзвінок менеджера
+                        <span class="glyphicon glyphicon-arrow-right hidden-xs"></span>
+                    </h3>
+                    <p class="order-item--text">
+                        надійде до Вас на протязі дня <br />
+                        для узгодження деталей замовлення
+                    </p>
+                    <p class="order-item--number">2</p>
+                </div>
+                <div class="col-xs-4 text-center order-item">
+                    <img src="images/order/3.png" class="order-image" alt="" />
+                    <h3 class="order-item--header">Отримайте замовлення</h3>
+                    <p class="order-item--text">
+                        у кур'єра або у зручному <br />
+                        віддуленні нової пошти
+                    </p>
+                    <p class="order-item--number">3</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <section id="paid">
-      <div class="container">
-        <div class="row">
-          <h1 class="title-yellow">Доставка та оплата</h1>
-          <div class="col-md-8 text-center">
-            <img src="images/paid/1.png" class="img-rounded" alt="" />
-            <p>
-              Доставка придбаних у нас товарів, <br />
-              здійснюється по всій Україні транспортними компаніями:
-            </p>
+        <div class="container">
+            <div class="row">
+                <h1 class="title-yellow">Доставка та оплата</h1>
+                <div class="col-md-8 text-center">
+                    <img src="images/paid/1.png" class="img-rounded" alt="" />
+                    <p>
+                        Доставка придбаних у нас товарів, <br />
+                        здійснюється по всій Україні транспортними компаніями:
+                    </p>
 
-            <div class="delivery-logos">
-              <img src="images/paid/ukrpochta.png" class="img-rounded" alt="" />
-              <img src="images/paid/np.png" class="img-rounded" alt="" />
+                    <div class="delivery-logos">
+                        <img src="images/paid/ukrpochta.png" class="img-rounded" alt="" />
+                        <img src="images/paid/np.png" class="img-rounded" alt="" />
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <p>
+                        Вартість доставки формується компанією-перевізником <br />
+                        виходячи з габаритів, ваги, а також місця призначення доставки
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <img src="images/paid/card.png" class="img-rounded" alt="" />
+                    </div>
+                    <p>Способи оплати придбаних у нас товарів:</p>
+                    <ul>
+                        <li>Готівкою при самовивозі</li>
+                        <li>
+                            Предплата на карту ПриватБанку через: <br />
+                            - систему Приват24 <br />
+                            - касу ПриватБанку <br />
+                            - платіжні термінали самообслуговування ПриватБанку
+                        </li>
+                        <li>Готівкою при самовивозі</li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="clearfix"></div>
-
-            <p>
-              Вартість доставки формується компанією-перевізником <br />
-              виходячи з габаритів, ваги, а також місця призначення доставки
-            </p>
-          </div>
-          <div class="col-md-4">
-            <div class="text-center">
-              <img src="images/paid/card.png" class="img-rounded" alt="" />
-            </div>
-            <p>Способи оплати придбаних у нас товарів:</p>
-            <ul>
-              <li>Готівкою при самовивозі</li>
-              <li>
-                Предплата на карту ПриватБанку через: <br />
-                - систему Приват24 <br />
-                - касу ПриватБанку <br />
-                - платіжні термінали самообслуговування ПриватБанку
-              </li>
-              <li>Готівкою при самовивозі</li>
-            </ul>
-          </div>
         </div>
-      </div>
     </section>
 
     <section class="discount">
-      <hr class="wave" />
-      <p class="discount-title">Бажаєте отримати знижку 50% та подарунок?</p>
-      <div class="discount-container">
-                    <div class="timer-container">
-                        <div class="sales_block">
-                            <div class="sales_logo">
-                                <img src="images/sales.png" alt="">
-                            </div>
-                            <div class="sales_arrow">
-                                <img src="images/arrow.png" alt="">
-                            </div>
-                            <div class="salesText salesText_1">
-                                <span>Тільки сьогодні</span>
-                                <span class="green_text round_font">знижка 50%</span>
-                                <span>на ялинки + </span>
-                            </div>
-                            <div class="salesText salesText_2">
-                                <span class="green_text round_font">подарунок</span>
-                                <img src="images/gift.png" alt="">
-                            </div>
-                            <div class="salesText salesText_3">
-                                <span>(LED-гірлянда на 100 ламп, 7.5 метрів, 4 кольори)</span>
-
-                            </div>
-                            <div class="salesText salesText_4">
-                                <span style="color:rgb(255,0,0)">Поспішайте! Кількість подарунків обмежена</span>
-
-                            </div>
-                            <div class="salesText salesText_5">
-                                <span>До закінчення акції залишилось</span>
-                                <script src="http://megatimer.ru/s/9dff547ed6820a092082477a341717ad.js"></script>
-                            </div>
-
-
-
-
-                        </div>
-
+        <hr class="wave" />
+        <p class="discount-title">Бажаєте отримати знижку 50% та подарунок?</p>
+        <div class="discount-container">
+            <div class="timer-container">
+                <div class="sales_block">
+                    <div class="sales_logo">
+                        <img src="images/sales.png" alt="">
+                    </div>
+                    <div class="sales_arrow">
+                        <img src="images/arrow.png" alt="">
+                    </div>
+                    <div class="salesText salesText_1">
+                        <span>Тільки сьогодні</span>
+                        <span class="green_text round_font">знижка 50%</span>
+                        <span>на ялинки + </span>
+                    </div>
+                    <div class="salesText salesText_2">
+                        <span class="green_text round_font">подарунок</span>
+                        <img src="images/gift.png" alt="">
+                    </div>
+                    <div class="salesText salesText_3">
+                        <span>(LED-гірлянда на 100 ламп, 7.5 метрів, 4 кольори)</span>
 
                     </div>
-      </div>
+                    <div class="salesText salesText_4">
+                        <span style="color:rgb(255,0,0)">Поспішайте! Кількість подарунків обмежена</span>
+
+                    </div>
+                    <div class="salesText salesText_5">
+                        <span>До закінчення акції залишилось</span>
+                        <script src="http://megatimer.ru/s/9dff547ed6820a092082477a341717ad.js"></script>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
     </section>
 
     <section id="reviews">
-      <div class="container">
-        <div class="row">
-          <h1 class="title-yellow">ВІДГУКИ НАШИХ КЛІЄНТІВ</h1>
-          <div class="col-md-6">
+        <div class="container">
             <div class="row">
-              <div class="col-md-5">
-                <img src="images/reviews/1.png" class="img-circle" alt="" />
-              </div>
-              <div class="col-md-7">
-                <h4><b>Ірина, irair@ukr.net</b></h4>
-                <p>
-                  Боюсь, что на елке из леса могуть быть<br />
-                  клещи или еще какие-то насекомые,<br />
-                  поэтому у вас уже давно купила елку.<br />
-                  А сейчас родителям у вас заказывала.<br />
-                  Спасибо, что держите марку, второй раз<br />
-                  елочка была такая же качественная, как<br />
-                  и купленная у вас 3 года назад.
-                </p>
-              </div>
+                <h1 class="title-yellow">ВІДГУКИ НАШИХ КЛІЄНТІВ</h1>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/reviews/1.png" class="img-circle" alt="" />
+                        </div>
+                        <div class="col-md-7">
+                            <h4><b>Ірина, irair@ukr.net</b></h4>
+                            <p>
+                                Боюсь, что на елке из леса могуть быть<br />
+                                клещи или еще какие-то насекомые,<br />
+                                поэтому у вас уже давно купила елку.<br />
+                                А сейчас родителям у вас заказывала.<br />
+                                Спасибо, что держите марку, второй раз<br />
+                                елочка была такая же качественная, как<br />
+                                и купленная у вас 3 года назад.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/reviews/2.png" class="img-circle" alt="" />
+                        </div>
+                        <div class="col-md-7">
+                            <h4><b>Тетяна, svt22@ukr.net</b></h4>
+                            <p>
+                                Каждый год покупали обычную елку,<br />
+                                думали, что это дешевле искуственной<br />
+                                (в магазинах дорого). Но у вас очень<br />
+                                выгодно купили. Конечно, выглядит как <br />
+                                настоящая, в этом я была уверена, еще<br />
+                                по фото на сайте было понятно, что <br />
+                                сделаны качественно.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-5">
-                <img src="images/reviews/2.png" class="img-circle" alt="" />
-              </div>
-              <div class="col-md-7">
-                <h4><b>Тетяна, svt22@ukr.net</b></h4>
-                <p>
-                  Каждый год покупали обычную елку,<br />
-                  думали, что это дешевле искуственной<br />
-                  (в магазинах дорого). Но у вас очень<br />
-                  выгодно купили. Конечно, выглядит как <br />
-                  настоящая, в этом я была уверена, еще<br />
-                  по фото на сайте было понятно, что <br />
-                  сделаны качественно.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <section id="certificates">
-      <hr class="wave latest" />
-      <div class="container">
-        <div class="row">
-          <h1 class="text-center">
-            Безпеку наших ялинок <br />
-            підтверждено сертифікатами
-          </h1>
-          <hr />
-          <div class="col-md-4 text-center">
-            <img src="images/certificates/1.png" class="img-rounded" alt="" />
-          </div>
-          <div class="col-md-4 text-center">
-            <img src="images/certificates/2.png" class="img-rounded" alt="" />
-          </div>
-          <div class="col-md-4 text-center">
-            <img src="images/certificates/3.png" class="img-rounded" alt="" />
-          </div>
+        <hr class="wave latest" />
+        <div class="container">
+            <div class="row">
+                <a href="" name="certif"></a>
+                <h1 class="text-center">
+                    Безпеку наших ялинок <br />
+                    підтверждено сертифікатами
+                </h1>
+                <hr />
+                <div class="col-md-4 text-center">
+                    <img src="images/certificates/1.png" class="img-rounded" alt="" />
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/certificates/2.png" class="img-rounded" alt="" />
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/certificates/3.png" class="img-rounded" alt="" />
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <section class="more">
-      <div class="container">
-        <div class="row">
-          <h1>Бажаєте придбати ялинки оптом ?</h1>
-          <div class="col-md-offset-4 col-md-8">
-            <p class="more-form-title">
-              Ми відкриті до партнерства та пропнуємо вигідні умови співпраці
-            </p>
+        <div class="container">
             <div class="row">
-              <div class="form-group col-md-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Ваше ім'я"
-                  required
-                />
-              </div>
-              <div class="form-group col-md-5">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Номер телефону, наприклад"
-                  required
-                />
-              </div>
-              <button type="submit" class="btn btn-green col-md-3">
-                Запросити прайс
-              </button>
+                <h1>Бажаєте придбати ялинки оптом ?</h1>
+                <div class="col-md-offset-4 col-md-8">
+                    <p class="more-form-title">
+                        Ми відкриті до партнерства та пропнуємо вигідні умови співпраці
+                    </p>
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                            <input type="text" class="form-control" placeholder="Ваше ім'я" required />
+                        </div>
+                        <div class="form-group col-md-5">
+                            <input type="text" class="form-control" placeholder="Номер телефону, наприклад" required />
+                        </div>
+                        <button type="submit" class="btn btn-green col-md-3">
+                            Запросити прайс
+                        </button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <section id="footer">
-      <div class="footer-help">
-        <p class="footer-help--title">Залишились питання?</p>
-        <p class="footer-help--subtitle">
-          Зателефонуйте нам та наш консультант відповість на них!
-        </p>
-        <p class="footer-help--number">
-          +38 (097) 156 84 15<br />
-          +38 (063) 418 23 17
-        </p>
-      </div>
-      <form class="contact-form">
-        <p class="contact-form--title">
-          Або просто заповніть форму<br />
-          та консультант сам Вам зателефонує
-        </p>
-        <input
-          type="text"
-          placeholder="Ваше імя"
-          id="contact-name"
-          class="contact-form--input"
-        />
-        <input
-          type="text"
-					id="contact-phone"
-					placeholder="Номер телефону, наприклад, +38(097) 555 22 33"
-          class="contact-form--input"
-        />
-        <div class="mx-auto">
-          <input
-            type="submit"
-            value="Надіслати"
-            class="contact-form--submit mx-auto"
-          />
+        <div class="footer-help">
+            <a href="" name="contacts"></a>
+            <p class="footer-help--title">Залишились питання?</p>
+            <p class="footer-help--subtitle">
+                Зателефонуйте нам та наш консультант відповість на них!
+            </p>
+            <p class="footer-help--number">
+                +38 (097) 156 84 15<br />
+                +38 (063) 418 23 17
+            </p>
         </div>
-      </form>
+        <form class="contact-form">
+            <p class="contact-form--title">
+                Або просто заповніть форму<br />
+                та консультант сам Вам зателефонує
+            </p>
+            <input type="text" placeholder="Ваше імя" id="contact-name" class="contact-form--input" />
+            <input type="text" id="contact-phone" placeholder="Номер телефону, наприклад, +38(097) 555 22 33" class="contact-form--input" />
+            <div class="mx-auto">
+                <input type="submit" value="Надіслати" class="contact-form--submit mx-auto" />
+            </div>
+        </form>
 
-      <div class="footer-info">
-        <p class="footer-copyright">
-          Вся інформація на сайті не є <br />
-          публичною офертой. <br />
-				</p>
-				<img src="images/footer/icons8-facebook-50.png" alt="" srcset="">
-        <div class="mail_block">
-        <img src="https://img.icons8.com/material-outlined/24/000000/new-post.png">
-        <span class="footer-text">KarpatskaYalynka@ukr.net</span>
+        <div class="footer-info">
+            <p class="footer-copyright">
+                Вся інформація на сайті не є <br />
+                публичною офертой. <br />
+            </p>
+            <img src="images/footer/icons8-facebook-50.png" alt="" srcset="" onclick="window.open('https://www.facebook.com/KarpatskaYalynka.com.ua/?modal=admin_todo_tour','_blank');"
+                style="cursor:pointer;">
+            <div class="mail_block" onclick="location.href='mailto:mailto:KarpatskaYalynka@ukr.net';" style="cursor:pointer;">
+                <img src="https://img.icons8.com/material-outlined/24/000000/new-post.png">
+                <span class="footer-text">KarpatskaYalynka@ukr.net</span>
+            </div>
+            <div class="location_block">
+                <img src="https://img.icons8.com/material-rounded/24/000000/marker.png">
+                <span class="footer-text">м. Івано-Франківськ</span>
+            </div>
+            <a class="footer-text to-catalog" href="#catalog"> До каталогу ></a>
         </div>
-     <div class="location_block">
-        <img src="https://img.icons8.com/material-rounded/24/000000/marker.png">
-        <span class="footer-text">м. Івано-Франківськ</span>
-     </div>
-        <a class="footer-text to-catalog" href="#"> До каталогу ></a>
-      </div>
     </section>
 
     <script src="libs/jquery-3.3.1.min.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-  </body>
+    <script src="main.js"></script>
+</body>
+
 </html>
