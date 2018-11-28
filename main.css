@@ -2,6 +2,11 @@ body {
  font-family: "lato";
     }
   
+ a, a:hover, a:focus { 
+    text-decoration: none!important; 
+   } 
+ 
+
 .round_font {
   font-family: "rounds"!important;
   }
@@ -14,10 +19,11 @@ body {
 
 #header .nav.menu {
   padding-top: 50px;
+  color: #333232;
 }
 
 #header .nav li a {
-  color: #000000;
+  color: #333232;
   font-weight: bold;
 }
 #header .nav > li > a:focus,
@@ -32,9 +38,14 @@ body {
   color: #fff;
 }
 
+#header .btn.order-call:hover,
+.btn-green:hover {
+  background-color: #11a646;
+}
+
 #header .navbar-brand {
   height: 100%;
-  margin-right: 100px;
+  margin-right: 135px;
 
 }
 
@@ -46,9 +57,14 @@ body {
   background-color: #056527;
 }
 
+.phone img {
+    width: 23px;
+    margin-bottom: 6px;
+}
+
 /* main section */
 #main {
-  /* height: 500px; */
+   height: 76vh;
   background-image: url(images/banner.png);
   background-size: cover;
   margin-bottom: 25px;
@@ -382,17 +398,22 @@ body {
 .contact-form {
   background-color: white;
   margin-left: 20%;
-  margin-top: 30px;
+  margin-top: 118px;
   padding: 30px;
   display: inline-block;
 	border-radius: 10px;
 	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  width: 432px;
+  height: 350px;
+  padding-top: 43px;
+
 }
 
 .contact-form--title {
   font-weight: 900;
   font-size: 17px;
   text-align: center;
+  margin-bottom: 42px;
 }
 
 .contact-form--input {
@@ -413,6 +434,10 @@ body {
 	display: block;
 	margin: 0 auto;
 }
+
+.contact-form--submit :hover {
+  background-color: #424141;
+  }
 
 .footer-info {
 	margin-top: 400px;
@@ -1070,4 +1095,8 @@ h1.title-yellow {
   .catalog__jewelry-item {
     margin-right: 0;
   }
+}
+
+.mail_block {
+
 }
