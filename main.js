@@ -10,10 +10,13 @@ $('.overlay').click(function () {
     $("body").removeClass("locked");
 });
 
-function on() {
-    document.getElementById("overlay").style.display = "block";
+function open_zoom_photo(item_number) {
+    document.getElementById("zoom_overlay").style.display = "block";
+    // alert(item_number);
+    $("#zoom_overlay").empty();
+    $("#zoom_overlay").append('<img src="images/catalog/zoom/zoom_' + item_number + '.jpg" alt=""></img>');
 }
 
 function off() {
-    document.getElementById("overlay").style.display = "none";
+    document.getElementById("zoom_overlay").style.display = "none";
 }

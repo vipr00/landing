@@ -299,16 +299,12 @@
         </div>
     </section>
 
-    <!-- <div id="overlay" onclick="off()">
-
-        <img src="" alt="">
-
+    <div id="zoom_overlay" onclick="off()">
 
 
     </div>
 
 
-    <button onclick="on()">Turn on overlay effect</button> -->
 
     <!-- CATALOG SECTION -->
     <section class="catalog">
@@ -377,9 +373,9 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/form-photo1.jpg" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(1);">
                                     <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
-                                    <button type="button" onclick="open_zoom_photo();">
+                                    <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
                                     </button>
                                 </div>
@@ -444,7 +440,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/2 snall.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(2);">
                                     <img src="images/catalog/2 main small.png" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -511,7 +507,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/3 zoom small.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(3);">
                                     <img src="images/catalog/3 main small.png" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -580,7 +576,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/4 zoom small.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(4);">
                                     <img src="images/catalog/main 4 small.png" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -649,7 +645,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/5 zoom small.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(5);">
                                     <img src="images/catalog/photo 5 small.png" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -718,7 +714,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/6 zoom small.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(6);">
                                     <img src="images/catalog/photo 6 main small.png" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -785,7 +781,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/7 zoom small.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(7);">
                                     <img src="images/catalog/photo 7 main small.png" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -850,7 +846,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/form-photo1.jpg" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(8);">
                                     <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -915,7 +911,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/9 zoom small.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(9);">
                                     <img src="images/catalog/main 9 zoom small.png" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -985,7 +981,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/10 zoom small.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(10);">
                                     <img src="images/catalog/main 10 small.png" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -1050,7 +1046,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/11 zoom small.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(11);">
                                     <img src="images/catalog/main 11 small.png" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -1115,7 +1111,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/photo 12 zoom small.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(12);">
                                     <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -1182,7 +1178,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/photo 13 zoom small 2.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(13);">
                                     <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -1245,7 +1241,7 @@
                             </div>
                             <div class="catalog__order-image">
                                 <img src="images/catalog/photo 14 zoom small.png" width="139" height="123" alt="Фото1">
-                                <div class="catalog__order-prewiew">
+                                <div class="catalog__order-prewiew" onclick="open_zoom_photo(14);">
                                     <img src="images/catalog/form-photo2.jpg" width="139" height="123" alt="Фото2">
                                     <button type="button">
                                         <img src="images/catalog/zoom.png" width="26" height="26" alt="Збільшити">
@@ -1271,11 +1267,11 @@
                         <img class="catalog__image catalog__image--jewelry" src="images/catalog/jewelry1.jpg" width="270"
                             height="164" alt="Гірлянда">
                         <h3 class="catalog__description-title">
-                            Гірлянда "Люкс"
+                            Гірлянда <br> "Люкс"
                         </h3>
                         <div class="catalog__description">
                             <p class="catalog__tre-size">
-                                (довжина 2 м, діаметр 260 мм)
+                                (довжина 2 м)
                             </p>
                             <span class="catalog__discount">-50%</span>
                             <span class="catalog__old-price">
@@ -1296,7 +1292,7 @@
                                 Гірлянда "Президентська"
                             </h3>
                             <p class="catalog__tre-size">
-                                (довжина 2 м, діаметр 260 мм)
+                                (довжина 2 м)
                             </p>
                             <span class="catalog__discount">-50%</span>
                             <span class="catalog__old-price">
@@ -1314,10 +1310,10 @@
                             height="164" alt="Гірлянда">
                         <div class="catalog__description">
                             <h3 class="catalog__description-title">
-                                Гірлянда "Стандарт"
+                                Гірлянда <br> "Стандарт"
                             </h3>
                             <p class="catalog__tre-size">
-                                (довжина 2 м, діаметр 200 мм)
+                                (довжина 2 м)
                             </p>
                             <span class="catalog__discount">-50%</span>
                             <span class="catalog__old-price">
@@ -1335,7 +1331,7 @@
                             height="164" alt="Гірлянда">
                         <div class="catalog__description">
                             <h3 class="catalog__description-title">
-                                Інші аксесуари
+                                Інші <br> аксесуари
                             </h3>
                             <p class="catalog__tre-size">
                                 в асортименті
@@ -1542,13 +1538,13 @@
                 </h1>
                 <hr />
                 <div class="col-md-4 text-center">
-                    <img src="images/certificates/1.png" class="img-rounded" alt="" />
+                    <img src="images/certificates/1.png" class="img-rounded" alt="" onclick="open_zoom_photo('cert_1');" />
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="images/certificates/2.png" class="img-rounded" alt="" />
+                    <img src="images/certificates/2.png" class="img-rounded" alt="" onclick="open_zoom_photo('cert_2');" />
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="images/certificates/3.png" class="img-rounded" alt="" />
+                    <img src="images/certificates/3.png" class="img-rounded" alt="" onclick="open_zoom_photo('cert_3');" />
                 </div>
             </div>
         </div>
